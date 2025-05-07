@@ -43,6 +43,7 @@
     # Option 2: Manual download from Ultralytics GitHub releases
     wget https://github.com/ultralytics/assets/releases/download/v0.0.0/yolo11n.pt -O model/yolov11/yolo11n.pt
     ```
+    The pre-trained models used in the project are available here: [GoogleDrive](https://drive.google.com/drive/folders/1O8AhWSGKE4euaFaVJdb6ug4GQgRXTM74?usp=sharing)
 
 ## Data Preparation
 

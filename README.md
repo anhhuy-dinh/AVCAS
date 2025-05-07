@@ -73,7 +73,7 @@ This will process the default video (`data/videos/test_1.mp4`) and save the outp
 
 ### Custom Configuration
 
-You can modify the following parameters in `inference.py`:
+You can modify the following parameters in `run_inference.py`:
 
 ```python
 # Paths

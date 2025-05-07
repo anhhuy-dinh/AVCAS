@@ -4,10 +4,14 @@ import time
 import numpy as np
 from collections import defaultdict
 from ultralytics import YOLO
+import sys
+import os
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "src"))
+sys.path.append(project_root)
 from utils.distance_utils import SingleCamDistanceMeasure, RectInfo, get_distances_from_detections
 from utils.vis_utils import modified_dashcam_visualization
 import sys
-import os
+
 
 # Import the UltrafastLaneDetector
 from ultrafastLaneDetector.ultrafastLaneDetector import UltrafastLaneDetector, ModelType

@@ -124,12 +124,12 @@ For the lane detection model, we modified the original UltrafastLaneDetector imp
    ```
 
 3. Apply our modifications to improve accuracy:
-   - Increase the griding number to 400 in `configs/culane_resnet18.py`:
+   - Increase the griding number to 400 in `configs/culane.py`:
      ```python
      # Change this line
      griding_num = 400  # Originally was 200
      ```
-   - Modify the row anchors to use 39 points in `configs/culane_resnet18.py`:
+   - Modify the row anchors to use 39 points in `data/constant.py`:
      ```python
      # Modify the row_anchor to include 39 points
      row_anchor = [100, 105, 110, 115, 120, 125, 130, 135, 140, 145, 
